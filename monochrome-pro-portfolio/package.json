@@ -1,0 +1,9 @@
+{
+  "name": "monochrome-pro-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "description": "Portfolio project with frontend and backend setup"
+}

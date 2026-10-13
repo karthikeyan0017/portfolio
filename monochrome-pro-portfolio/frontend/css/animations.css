@@ -1,0 +1,24 @@
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  animation: revealIn 0.8s ease forwards;
+}
+
+@keyframes revealIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .reveal {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}
